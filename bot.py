@@ -95,8 +95,7 @@ async def send_to_groups():
                 print(f"Fel i grupp {group_id}: {e}")
 
         print("Klar. Väntar 1 timme...")
-await asyncio.sleep(3600)  # 1 timme
-
+        await asyncio.sleep(3600)
 
 if __name__ == "__main__":
     asyncio.run(send_to_groups())
