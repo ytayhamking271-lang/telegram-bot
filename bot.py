@@ -22,13 +22,17 @@ async def main():
             try:
                 await bot.send_message(
                     chat_id=group_id,
-                    text=MESSAGE,
-                    disable_web_page_preview=True
+                    text=MESSAGE
                 )
+
                 print(f"Skickat till {group_id}")
+
             except Exception as e:
                 print(f"Fel i {group_id}: {e}")
+
             await asyncio.sleep(2)
+
         print("Väntar 5 minuter...")
         await asyncio.sleep(300)
+
 asyncio.run(main())
