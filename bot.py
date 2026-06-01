@@ -1,5 +1,14 @@
+import asyncio
 import os
+from telegram import Bot
 
-token = os.getenv("TOKEN")
+TOKEN = os.getenv("TOKEN")
 
-print("TOKEN:", repr(token))
+async def main():
+    bot = Bot(TOKEN)
+
+    me = await bot.get_me()
+
+    print("BOT:", me)
+
+asyncio.run(main())
