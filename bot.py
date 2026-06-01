@@ -14,7 +14,7 @@ GROUP_IDS = [
     -1003126524114,
     -1001755122717
 ]
-MESSAGE = "test"
+MESSAGE = "Hej"
 bot = Bot(token=TOKEN)
 async def main():
     while True:
