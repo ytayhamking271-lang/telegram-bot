@@ -4,11 +4,16 @@ from telegram import Bot
 
 TOKEN = os.getenv("TOKEN")
 
+GROUP_ID = -1001719475141
+
 async def main():
     bot = Bot(TOKEN)
 
-    me = await bot.get_me()
+    msg = await bot.send_message(
+        chat_id=GROUP_ID,
+        text="Test från Railway"
+    )
 
-    print("BOT:", me)
+    print(msg)
 
 asyncio.run(main())
