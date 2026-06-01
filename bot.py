@@ -90,9 +90,9 @@ async def send_to_groups():
 
                 print(f"Fel i grupp {group_id}: {e}")
 
-        print("Klar. Väntar 5 minuter...")
+        print("Klar. Väntar 1 timme...")
 
-        await asyncio.sleep(300)
+        await asyncio.sleep(3600)  # 1 timme
 
 if __name__ == "__main__":
 
