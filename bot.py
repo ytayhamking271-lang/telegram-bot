@@ -72,37 +72,24 @@ Boten känner automatiskt av när någon går med via din länk – du behöver 
 bot = Bot(token=TOKEN)
 
 async def send_to_groups():
-
     while True:
-
-        print("Skickar meddelanden...")
-
         for group_id in GROUP_IDS:
-
             try:
-
                 await bot.send_message(
-
                     chat_id=group_id,
-
                     text=MESSAGE
-
                 )
 
                 print(f"Skickat till grupp {group_id}")
 
-                # Vänta lite mellan varje grupp
-
                 await asyncio.sleep(2)
 
             except Exception as e:
-
                 print(f"Fel i grupp {group_id}: {e}")
 
         print("Klar. Väntar 30 minuter...")
-   
-await asyncio.sleep(1800)  # 30 minuter
+        await asyncio.sleep(1800)  # 30 minuter
+
 
 if __name__ == "__main__":
-
     asyncio.run(send_to_groups())
