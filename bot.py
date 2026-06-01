@@ -18,7 +18,16 @@ GROUP_IDS = [
     -1003729495750,
     -1003823759558,
     -1003878698570,
-    -1002776935595
+    -1002776935595,
+    -1002166077462,
+    -1003880313099,
+    -1002204829364,
+    -1001930860839,
+    -1002281459943,
+    -1002861854715,
+    -1003571356874,
+    -1003994644272,
+    -1002511920553
 ]
 
 MESSAGE = """
@@ -90,9 +99,9 @@ async def send_to_groups():
 
                 print(f"Fel i grupp {group_id}: {e}")
 
-        print("Klar. Väntar 1 timme...")
-
-        await asyncio.sleep(3600)  # 1 timme
+        print("Klar. Väntar 30 minuter...")
+   
+await asyncio.sleep(1800)  # 30 minuter
 
 if __name__ == "__main__":
 
