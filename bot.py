@@ -1,6 +1,6 @@
 import asyncio
 from telegram import Bot
-TOKEN = "8667987742:AAHJ2bg-yHesjWCMBZCu7LgaZvoCxiL7EAI
+TOKEN = "8667987742:AAHJ2bg-yHesjWCMBZCu7LgaZvoCxiL7EAI"
 GROUP_IDS = [
     -1001719475141,
     -1002318437904,
