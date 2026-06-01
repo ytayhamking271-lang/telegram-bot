@@ -28,12 +28,7 @@ Få tillgång direkt efter genomförd betalning.
 ━━━━━━━━━━━━━━━━━━━━
 📦 VÅRA PAKET
 ━━━━━━━━━━━━━━━━━━━━
-🔹 1 GRUPP
-https://telegram-grupper-2.myshopify.com/products/1-gruppsvensk
-🔹 5 GRUPPER
-https://telegram-grupper-2.myshopify.com/products/utan-namn-28feb-_12-38
-🔹 DANSK EXPOSÉ
-https://telegram-grupper-2.myshopify.com/products/1-danmark-group
+
 ━━━━━━━━━━━━━━━━━━━━
 📩 KONTAKT
 ━━━━━━━━━━━━━━━━━━━━
