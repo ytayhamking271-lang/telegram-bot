@@ -14,33 +14,7 @@ GROUP_IDS = [
     -1003126524114,
     -1001755122717
 ]
-MESSAGE = """
-━━━━━━━━━━━━━━━━━━━━
-🔥 PREMIUM TELEGRAMGRUPPER 🔥
-━━━━━━━━━━━━━━━━━━━━
-💳 HELT ANONYMA BETALNINGAR
-✔ PayPal
-✔ Klarna
-✔ Apple Pay
-✔ Kort
-⚡ DIREKT LEVERANS
-Få tillgång direkt efter genomförd betalning.
-━━━━━━━━━━━━━━━━━━━━
-📦 VÅRA PAKET
-━━━━━━━━━━━━━━━━━━━━
-
-━━━━━━━━━━━━━━━━━━━━
-📩 KONTAKT
-━━━━━━━━━━━━━━━━━━━━
-👉 @ghettograbb2
-👉 @ghettograbb3
-━━━━━━━━━━━━━━━━━━━━
-✅ Direkt tillgång
-✅ Säkra betalningar
-✅ Snabb support
-🔥 Beställ idag!
-━━━━━━━━━━━━━━━━━━━━
-"""
+MESSAGE = "test"
 bot = Bot(token=TOKEN)
 async def main():
     while True:
