@@ -38,42 +38,19 @@ GROUP_IDS = [
 ]
 
 MESSAGE = """
-🚨 ALLA SVENSKA STÄDER FINNS TILLGÄNGLIGA 🚨
+‼️‼️HELT ANONYMA BETALNINGAR
 
-✅ 250 000+ videor/bilder
-✅ 150+ grupper
-✅ Städer över hela Sverige
-✅ Direkt leverans efter betalning
+(Via paypal,klarna,apple pay,kort)
 
-📩 Vid intresse: @ghettograbb2
+Grupper finns få grupperna direkt när betalning är gjort om vi inte svarar😊
 
-💳 Helt anonyma betalningar via:
-• PayPal
-• Klarna
-• Apple Pay
-• Kort
+ • 1 GRUPP (https://telegram-grupper-2.myshopify.com/products/1-gruppsvensk)
 
-🛒 Köp direkt:
+ • 5 GRUPPER (https://telegram-grupper-2.myshopify.com/products/utan-namn-28feb-_12-38)
 
-• 1 Grupp:
-https://telegram-grupper-2.myshopify.com/products/1-gruppsvensk
+ • DANSKED EXPOSÉ (https://telegram-grupper-2.myshopify.com/products/1-danmark-group)
 
-• 5 Grupper:
-https://telegram-grupper-2.myshopify.com/products/utan-namn-28feb-_12-38
-
-• Dansk Exposé:
-https://telegram-grupper-2.myshopify.com/products/1-danmark-group
-
-🤖 Ny bot tillgänglig:
-@Svenska_grupper_bot
-
-Boten känner automatiskt av när någon går med via din länk – du behöver inte längre kontrollera manuellt.
-
-⚡ Om vi inte svarar direkt kan du köpa via länkarna ovan och få tillgång snabbare.
-
-📩 Kontakta:
-@ghettograbb2
-@ghettograbb3
+@ghettograbb2 @ghettograbb3
 """
 
 bot = Bot(token=TOKEN)
